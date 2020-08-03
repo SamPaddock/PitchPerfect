@@ -26,6 +26,13 @@ Open terminal app and navigate to project folders
 Clone project repository
 `$ git clone https://github.com/SamPaddock/PitchPerfect.git`
 
+### Usage
+
+1. Login using Udacity credential. While confirming credential, an activity progress spinner appers.
+2. After successful login, the user is navigated to the Map and Table view, where 100 recent locations are shown as pins. Any pin selected has a URL than can be opened.
+3. A user can add a pin, where they type a location that is then geocoded and is displayed on a map. They are also required to add a valid URL with the location.
+4. Once the new pin is added, they are redirected to the map and table view, where they are reloaded to show the new pin added.
+
 ## Technology
 AVAudioRecorder: to record and manipulate voice recording
 
